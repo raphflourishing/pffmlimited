@@ -1,0 +1,171 @@
+
+
+
+
+
+
+
+#about {
+    position: relative;
+    overflow: hidden;
+  }
+  
+#id {
+ height: 20px;
+}
+
+/*Newsletter*/
+form {
+  display: flex;
+}
+
+.form input{
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  height: 70px;
+  width: 400px;
+  font-size: 16px;
+}
+
+.form button {
+  background: #fff;
+  border: none;
+  outline: none;
+  height: 70px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.span{
+  color: #61b752;
+  margin-top: 10px;
+  display: block;
+}
+
+
+/*updated code og the proceduaral excellence*/
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.video-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+  z-index: 0; /* Gradient is below the text but above the video */
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Send video to the background */
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),;
+}
+
+.centered-text {
+  position: relative;
+  z-index: 1; /* Bring text to the foreground */
+}
+
+
+
+
+
+
+
+
+
+
+
+  /*career*/
+
+  .bbd {
+    background-color: #fbfbfb;
+    }
+    @media (min-width: 991.98px) {
+    main {
+    padding-left: 240px;
+    }
+    }
+    
+    /* Sidebar */
+    .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+    }
+    
+    @media (max-width: 991.98px) {
+    .sidebar {
+    width: 100%;
+    }
+    }
+
+
+    .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    }
+    
+    .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
+
+
+    /* product*/
+
+  #btnn:hover {
+background-color: red;
+    }
+
+ @media (max-width: 390px) {
+
+  .video-container{
+    height: 40vh;
+
+  }
+
+  .carousel .carousel-inner img {
+    height: 35vh;
+  }
+
+
+.form input{
+  
+  padding: 5px 10px;
+  height: 70px;
+  width: 50%;
+  font-size: 16px;
+}
+
+
+
+
+
+  
+ }
